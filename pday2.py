@@ -31,4 +31,17 @@ for row in range(1,fruit+1):
         else:
             n+=" "+" "
     print(n)
+print()
+# I pattern
+fruit=5
+mid=fruit//2+1
+for row in range(1,fruit+1):
+    i=""
+    for col in range(1,fruit+1):
+        if row==1 or row==fruit or col==mid:
+            i+="i"+" "
+        else:
+            i+=" "+" "
+    print(i)
+
             
